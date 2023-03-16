@@ -1,0 +1,26 @@
+graph LR;
+  %%{init: {'theme': 'default', 'themeVariables': { 'scaleFactor': '0.8'}}}%%
+A[Tópicos do curso de Execução Fiscal] --> B[Organização do setor de trabalho];
+B --> B1[Portaria 621];
+B --> B2[NMP];
+B --> B3[NMC];
+B --> B4[NIF];
+B --> B5[Desjud];
+A --> D[Fluxograma básico da execução fiscal];
+D --> D0[Requisitos básicos da execução fiscal];
+D --> D1[Procedimentos para citação];
+D --> D2[Pesquisa judicial de bens];
+D --> D3[Pesquisas internas básicas];
+A --> E[Procedimentos complexos de execução fiscal];
+E --> E1[Verificação de sucessão empresarial];
+E --> E2[Verificação de penhoras complexas];
+E --> E3[Verificação de redirecionamentos a não administrador];
+A --> F[Causas de extinção do feito];
+F --> F1[Prescrição];
+F --> F2[Prescrição intercorrente];
+F --> F3[Remissão];
+F --> F4[Abandono de causa];
+A --> G[SITAFE];
+G --> G1[Atualizar valor];
+G --> G2[Verificação de parcelamento];
+G --> G3[Demonstrativo]
